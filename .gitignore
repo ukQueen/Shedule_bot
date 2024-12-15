@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+**/__pycache__/
 *.py[cod]
 *$py.class
 
@@ -12,6 +13,11 @@ ENV/
 env/
 env.bak/
 venv.bak/
+.venv/
+
+# IDE directories
+.idea/
+.vscode/
 
 # Distribution / packaging
 .Python
@@ -30,23 +36,41 @@ var/
 .installed.cfg
 *.egg
 
-# PyInstaller
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# PyCharm
-.idea/
-*.iml
-*.iws
-
 # Logs
 *.log
 
-# SQLite
+# Database files
 *.sqlite3
+db.sqlite3-journal
+
+# Environment variables
+.env
+.env.*
+
+# Secrets
+bot_token.py
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor temporary files
+*.swp
+*.bak
+*.tmp
+
+# Miscellaneous
+*.DS_Store
+*.swp
+*.bak
+*.tmp
 
 bot_token.py
