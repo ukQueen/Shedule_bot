@@ -5,9 +5,9 @@ import sys
 from aiogram import Bot, Dispatcher
 
 from app.handlers import router
+from token import token
 
-
-bot = Bot(token='7172611579:AAF3vGXidt5BBgGRSxPNff5Lj4D0DkEHJxg')
+bot = Bot(token=token)
 
 
 async def main() -> None:
