@@ -5,7 +5,7 @@ import sys
 from aiogram import Bot, Dispatcher
 
 from app.handlers import router
-from token import token
+from bot_token import token
 
 bot = Bot(token=token)
 
