@@ -73,4 +73,4 @@ Thumbs.db
 *.bak
 *.tmp
 
-bot_token.py
+.env
